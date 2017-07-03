@@ -45,11 +45,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -78,8 +78,8 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 
 
@@ -282,7 +282,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -302,10 +302,10 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: da35ffacbd044ee33c19952855ed80e9
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: ckJava
 
 # Disqus
 disqus:
@@ -336,13 +336,11 @@ changyan:
 # Baidu Share
 # Available value:
 #    button | slide
-# Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
 
 # Share
 #jiathis:
-# Warning: JiaThis does not support https.
 #add_this_id:
 
 # Share
@@ -371,8 +369,8 @@ changyan:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
+  admin_enable: true
+  user_id: 6258755641809044226
   #admin_nickname: Author
 
 
@@ -542,7 +540,6 @@ canvas_ribbon: false
 # For example
 #    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
 # Be aware that you should use the same version as internal ones to avoid potential problems.
-# Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
   _internal: lib
@@ -551,28 +548,28 @@ vendors:
   jquery:
 
   # Internal version: 2.1.5
-  # See: http://fancyapps.com/fancybox/
+  # http://fancyapps.com/fancybox/
   fancybox:
   fancybox_css:
 
   # Internal version: 1.0.6
-  # See: https://github.com/ftlabs/fastclick
+  # https://github.com/ftlabs/fastclick
   fastclick:
 
   # Internal version: 1.9.7
-  # See: https://github.com/tuupola/jquery_lazyload
+  # https://github.com/tuupola/jquery_lazyload
   lazyload:
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
+  # http://VelocityJS.org
   velocity:
 
   # Internal version: 1.2.1
-  # See: http://VelocityJS.org
+  # http://VelocityJS.org
   velocity_ui:
 
   # Internal version: 0.7.9
-  # See: https://faisalman.github.io/ua-parser-js/
+  # https://faisalman.github.io/ua-parser-js/
   ua_parser:
 
   # Internal version: 4.6.2
