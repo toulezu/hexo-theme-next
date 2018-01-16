@@ -242,8 +242,8 @@ post_wordcount:
   #description: ex. subscribe to my blog by scanning my public wechat account
 
 # Reward
-#reward_comment: Donate comment here
-#wechatpay: /images/wechatpay.jpg
+reward_comment: Buy me a cup of coffee
+wechatpay: /images/wechatpay.jpg
 #alipay: /images/alipay.jpg
 #bitcoin: /images/bitcoin.png
 
@@ -391,7 +391,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
+youyan_uid: 2155201
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
